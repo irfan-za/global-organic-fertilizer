@@ -15,7 +15,7 @@ const FeaturedProductSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="relative  w-full h-full"
+            className="relative w-full h-40 sm:h-64 md:h-96 lg:h-full"
           >
             <Image
               src="/images/gallery/14.jpg"
