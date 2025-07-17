@@ -7,8 +7,8 @@ export const galleryImages = [
   },
   {
     id: 2,
-    title: "Vermicompost Process",
-    description: "Natural earthworm processing system for organic fertilizer",
+    title: "Organic Farming Results",
+    description: "Healthy crops growing with our organic fertilizers",
   },
   {
     id: 3,
@@ -18,13 +18,13 @@ export const galleryImages = [
   },
   {
     id: 4,
-    title: "Organic Farming Results",
-    description: "Healthy crops growing with our organic fertilizers",
+    title: "Vermicompost Process",
+    description: "Natural earthworm processing system for organic fertilizer",
   },
   {
     id: 5,
     title: "Product Packaging",
-    description: "Ready-to-use organic fertilizers in eco-friendly packaging",
+    description: "Ready-to-use organic fertilizers in practical packaging",
   },
   {
     id: 6,
@@ -64,7 +64,8 @@ export const galleryImages = [
   {
     id: 13,
     title: "Environmental Impact",
-    description: "Positive effects of organic farming on the ecosystem",
+    description:
+      "Humans and nature can live side by side by using organic fertilizer",
   },
   {
     id: 14,
@@ -76,210 +77,37 @@ export const galleryImages = [
 
 export const products = [
   {
-    id: 1,
-    title: "Organic Compost",
-    description:
-      "Premium organic compost made from decomposed organic matter, perfect for enriching soil and promoting healthy plant growth.",
-    category: "Compost",
-    price: "$25.99",
-    features: [
-      "100% Organic",
-      "Rich in Nutrients",
-      "Improves Soil Structure",
-      "Eco-Friendly",
-    ],
-    specifications: {
-      "NPK Ratio": "2-1-1",
-      "Organic Matter": "85%",
-      "pH Level": "6.5-7.5",
-      "Moisture Content": "30-40%",
-      "Application Rate": "2-4 inches thick",
-    },
-    benefits: [
-      "Enhances soil fertility naturally",
-      "Improves water retention",
-      "Promotes beneficial microorganisms",
-      "Reduces need for chemical fertilizers",
-    ],
-  },
-  {
-    id: 2,
-    title: "Liquid Fertilizer",
-    description:
-      "Fast-acting liquid fertilizer for quick nutrient absorption and immediate plant feeding.",
-    category: "Liquid",
-    price: "$18.99",
-    features: [
-      "Fast Acting",
-      "Easy Application",
-      "Complete Nutrition",
-      "Suitable for All Plants",
-    ],
-    specifications: {
-      "NPK Ratio": "10-10-10",
-      Form: "Liquid Concentrate",
-      "Dilution Rate": "1:10 with water",
-      "pH Level": "6.0-7.0",
-      "Shelf Life": "2 years",
-    },
-    benefits: [
-      "Immediate nutrient availability",
-      "Easy to apply and measure",
-      "Uniform distribution",
-      "Suitable for foliar feeding",
-    ],
-  },
-  {
-    id: 3,
-    title: "Granular NPK",
-    description:
-      "Balanced NPK granular fertilizer providing essential nutrients for all types of crops.",
-    category: "Granular",
-    price: "$21.99",
-    features: ["Balanced NPK", "Slow Release", "Long Lasting", "All-Purpose"],
-    specifications: {
-      "NPK Ratio": "15-15-15",
-      Form: "Granular",
-      "Particle Size": "2-4mm",
-      "pH Level": "6.0-7.0",
-      "Application Rate": "2-3 lbs per 100 sq ft",
-    },
-    benefits: [
-      "Provides balanced nutrition",
-      "Slow-release formula",
-      "Suitable for all crops",
-      "Reduces application frequency",
-    ],
-  },
-  {
-    id: 4,
-    title: "Bone Meal",
-    description:
-      "Natural bone meal fertilizer rich in phosphorus and calcium for strong root development.",
-    category: "Organic",
-    price: "$16.99",
-    features: [
-      "High Phosphorus",
-      "Rich in Calcium",
-      "Natural Source",
-      "Root Development",
-    ],
-    specifications: {
-      "NPK Ratio": "3-15-0",
-      "Calcium Content": "24%",
-      "pH Level": "7.0-8.0",
-      Form: "Fine Powder",
-      "Application Rate": "1-2 lbs per 100 sq ft",
-    },
-    benefits: [
-      "Promotes strong root systems",
-      "Enhances flowering and fruiting",
-      "Provides long-term phosphorus",
-      "Improves soil structure",
-    ],
-  },
-  {
-    id: 5,
-    title: "Seaweed Extract",
-    description:
-      "Marine-based fertilizer packed with trace elements and natural growth hormones.",
-    category: "Extract",
-    price: "$24.99",
-    features: [
-      "Marine-Based",
-      "Growth Hormones",
-      "Trace Elements",
-      "Stress Resistance",
-    ],
-    specifications: {
-      "NPK Ratio": "1-0-4",
-      "Potassium Content": "18%",
-      "pH Level": "8.0-9.0",
-      Form: "Liquid Extract",
-      "Dilution Rate": "1:20 with water",
-    },
-    benefits: [
-      "Enhances plant stress tolerance",
-      "Improves root development",
-      "Increases disease resistance",
-      "Promotes vigorous growth",
-    ],
-  },
-  {
-    id: 6,
-    title: "Chicken Manure",
-    description:
-      "Well-composted chicken manure providing balanced nutrition for vegetable gardens.",
-    category: "Manure",
-    price: "$17.99",
-    features: [
-      "Well-Composted",
-      "High Nitrogen",
-      "Balanced Nutrition",
-      "Vegetable Gardens",
-    ],
-    specifications: {
-      "NPK Ratio": "4-2-3",
-      "Organic Matter": "65%",
-      "pH Level": "6.5-7.5",
-      "Moisture Content": "15-25%",
-      "Application Rate": "2-4 lbs per 100 sq ft",
-    },
-    benefits: [
-      "High nitrogen content",
-      "Improves soil fertility",
-      "Perfect for vegetable gardens",
-      "Enhances plant growth",
-    ],
-  },
-  {
-    id: 7,
-    title: "Fish Emulsion",
-    description:
-      "Organic fish-based fertilizer excellent for leafy greens and flowering plants.",
-    category: "Liquid",
-    price: "$20.99",
-    features: ["Fish-Based", "Organic", "Leafy Greens", "Quick Absorption"],
-    specifications: {
-      "NPK Ratio": "5-1-1",
-      "Nitrogen Content": "5%",
-      "pH Level": "6.0-7.0",
-      Form: "Liquid Concentrate",
-      "Dilution Rate": "1:15 with water",
-    },
-    benefits: [
-      "Excellent for leafy vegetables",
-      "Quick nutrient absorption",
-      "Organic and natural",
-      "Promotes lush foliage",
-    ],
-  },
-  {
     id: 8,
     title: "Vermicompost",
     description:
-      "Our vermicompost is a high-quality organic fertilizer made from livestock waste (cow manure) that has been processed through the digestive system of earthworms.",
+      "Our vermicompost is a high-quality organic fertilizer produced from worm castings, where the worms are primarily fed with cow manure and occasionally supplemented with chicken manure to enhance nutrient levels. The composting process occurs naturally through microbial and earthworm activity, resulting in a nutrient-rich, environmentally friendly organic fertilizer. To improve handling and application, the vermicompost is processed into granular form—dust-free, non-clumping, and easy to apply across various types of agricultural land. The product is further enriched with: Dolomite (±20%) – to balance soil pH and provide calcium and magnesium. rice husk ash (<10%) – to enhance soil porosity, aeration, and support microbial life. ",
     category: "Compost",
-    price: "$22.99",
     features: [
       "Earthworm Processed",
-      "High Quality",
+      "High in natural NPK",
       "Granular Form",
-      "Slow Release",
+      "100% organic and eco-friendly",
     ],
     specifications: {
-      "NPK Ratio": "1-1-1",
-      "Organic Matter": "75%",
-      "pH Level": "7.0-8.0",
-      "Moisture Content": "25-35%",
-      "Application Rate": "1-2 lbs per 100 sq ft",
+      "Organic Carbon(C)": "18-20%",
+      "Nitrogen (N)": "1.2-1.8%",
+      "Phosphorus (P₂O₅)": "0.8-1.2%",
+      "Potassium (K₂O)": "0.6-1.0%",
+      "C/N Ratio": "15-20",
+      "pH Level": "6.5-7.5",
+      "Moisture Content": "30-40%",
+      "Application Rate": "5-10 tons per hecta",
     },
     benefits: [
-      "Improves soil structure",
-      "Enhances water retention",
-      "Provides slow-release nutrients",
+      "Improves soil fertility & structure",
+      "Boosts crop yields",
+      "Eco-friendly",
       "Increases microbial activity",
     ],
+    packaging:
+      "Our product is packed in woven polypropylene sacks lined with anero plastic to maintain freshness and moisture during shipment. The standard packaging weight is 50 kg. However, custom packaging options are available upon request, to accommodate specific needs for different export markets.",
+    customFormulation:
+      "We understand that each customer and market has unique needs. Therefore, the composition of our vermicompost can be customized upon request. If you prefer a version without dolomite (20%) and Rice husk ash (<10%), we are fully prepared to provide it. Your satisfaction is our top priority.",
   },
   {
     id: 11,
@@ -287,7 +115,6 @@ export const products = [
     description:
       "Sourced from local livestock waste, this fertilizer is naturally and environmentally processed through accelerated decomposition.",
     category: "Manure",
-    price: "$19.99",
     features: [
       "Locally Sourced",
       "Naturally Processed",
@@ -295,17 +122,18 @@ export const products = [
       "Quick Maturation",
     ],
     specifications: {
-      "NPK Ratio": "2-1-2",
-      "Organic Matter": "70%",
-      "pH Level": "6.8-7.2",
-      "Moisture Content": "20-30%",
-      "Application Rate": "3-5 lbs per 100 sq ft",
+      "Nitrogen (N)": "1.2 – 1.8%",
+      "Phosphorus (P₂O₅)": "1.0 – 1.5%",
+      "Potassium (K₂O)": " 1.1 – 1.6%",
+      "pH Level": "6.0 – 7.5",
+      "Moisture Content": "25 – 35%",
+      Form: "Finely crushed, semi-powdered texture. Easy to mix with soil and quickly absorbed by plants.",
     },
     benefits: [
-      "Sterilized from harmful pathogens",
-      "Quick decomposition process",
+      "Rich in natural nutrients",
+      "Enhanced with beneficial microbes",
       "Environmentally sustainable",
-      "Balanced nutrition for plants",
+      "Odor-free and safe to use",
     ],
   },
   {
@@ -314,19 +142,18 @@ export const products = [
     description:
       "Rice Husk Ash is a high-quality organic material made from rice agricultural waste through controlled incomplete combustion.",
     category: "Ash",
-    price: "$15.99",
     features: [
-      "Agricultural Waste",
-      "Controlled Combustion",
+      "Rich in Stable Carbon",
+      "Boosts Microbial Activity",
       "High Porosity",
-      "Soil Amendment",
+      "Alkaline pH",
     ],
     specifications: {
-      "Silicon Content": "90%",
+      "Silicon Content": "70-90%",
       "Potassium Content": "2-3%",
-      "pH Level": "8.5-9.5",
+      "pH Level": "6.7-8.0",
       Porosity: "High",
-      "Application Rate": "1-2 lbs per 100 sq ft",
+      "Moisture Content": "10-20%",
     },
     benefits: [
       "Improves soil drainage",

@@ -12,7 +12,7 @@ const HeroSection = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       <Image
-        src="/images/gallery/1.jpg"
+        src="/images/bg-hero.jpg"
         alt="Hero Background"
         fill
         className="object-cover brightness-50"

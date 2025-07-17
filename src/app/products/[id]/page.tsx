@@ -101,9 +101,9 @@ export default function ProductDetailPage() {
             <p className="text-xl text-gray-600 mb-6 leading-relaxed">
               {product.description}
             </p>
-            <div className="text-3xl font-bold text-green-600 mb-6">
+            {/* <div className="text-3xl font-bold text-green-600 mb-6">
               {product.price}
-            </div>
+            </div> */}
 
             <div className="mb-8">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">
@@ -189,6 +189,83 @@ export default function ProductDetailPage() {
             </Card>
           </motion.div>
         </div>
+
+        {/* Additional Product Information */}
+        {(product.packaging || product.customFormulation) && (
+          <div className="grid lg:grid-cols-2 gap-8 mb-16">
+            {/* Packaging Section */}
+            {product.packaging && (
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.8 }}
+              >
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center">
+                      <svg
+                        className="w-5 h-5 mr-2 text-green-600"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+                        />
+                      </svg>
+                      Packaging
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-gray-700 leading-relaxed">
+                      {product.packaging}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            )}
+
+            {/* Custom Formulation Section */}
+            {product.customFormulation && (
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 1.0 }}
+              >
+                <Card>
+                  <CardHeader>
+                    <CardTitle className="flex items-center">
+                      <svg
+                        className="w-5 h-5 mr-2 text-green-600"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"
+                        />
+                      </svg>
+                      Custom Formulation Available
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-gray-700 leading-relaxed">
+                      {product.customFormulation}
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+            )}
+          </div>
+        )}
 
         {relatedProducts.length > 0 && (
           <motion.div

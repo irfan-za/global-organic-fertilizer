@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Global Organik Fertilizer",
+  title: "Global Organic Fertilizer",
   description:
-    "Global Organik Fertilizer provides sustainable, eco-friendly solutions for agriculture, promoting healthy soil and environmentally conscious farming.",
+    "Global Organic Fertilizer provides sustainable, eco-friendly solutions for agriculture, promoting healthy soil and environmentally conscious farming.",
   keywords: "organic fertilizer, sustainable agriculture, eco-friendly farming",
   robots: {
     index: true,

@@ -48,7 +48,7 @@ const Navbar = () => {
                 scrolled ? "text-green-600" : "text-white"
               }`}
             >
-              Global Organik Fertilizer
+              Global Organic Fertilizer
             </h1>
           </motion.div>
 

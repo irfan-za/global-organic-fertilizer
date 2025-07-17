@@ -12,6 +12,7 @@ import {
   Linkedin,
 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const FooterSection = () => {
   const contactInfo = [
@@ -35,9 +36,9 @@ const FooterSection = () => {
     {
       icon: <Mail className="w-6 h-6 mr-2" />,
       title: "Email",
-      details: ["Globalorganikfertilizer@gmail.com"],
+      details: ["globalorganicfertilizer@gmail.com"],
       color: "text-blue-500",
-      href: "mailto:Globalorganikfertilizer@gmail.com",
+      href: "mailto:globalorganicfertilizer@gmail.com",
     },
   ];
 
@@ -69,7 +70,13 @@ const FooterSection = () => {
   ];
 
   return (
-    <footer id="contact" className="bg-gray-900 text-white">
+    <footer id="contact" className="bg-gray-900/80 text-white relative">
+      <Image
+        src="/images/bg-footer.jpg"
+        alt="Footer Background"
+        className="absolute inset-0 object-cover w-full h-full -z-10"
+        fill
+      />
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -138,7 +145,7 @@ const FooterSection = () => {
         className="border-t border-gray-800 py-4"
       >
         <p className="text-gray-400 text-center ">
-          © {new Date().getFullYear()} Global Organik Fertilizer. All rights
+          © {new Date().getFullYear()} Global Organic Fertilizer. All rights
           reserved.
         </p>
       </motion.div>

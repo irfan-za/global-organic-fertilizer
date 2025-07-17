@@ -1,7 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ProductSection from "@/components/ProductSection";
-import FeaturedProductSection from "@/components/FeaturedProductSection";
+import VisionMissionSection from "@/components/VisionMissionSection";
 import DemoProductSection from "@/components/DemoProductSection";
 import GallerySection from "@/components/GallerySection";
 import ButtonWA from "@/components/ButtonWA";
@@ -12,7 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProductSection />
-      <FeaturedProductSection />
+      <VisionMissionSection />
       <DemoProductSection />
       <GallerySection />
       <ButtonWA />
