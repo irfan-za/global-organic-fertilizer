@@ -63,7 +63,7 @@ const ProductSection = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-0 flex-1 ">
-                  <CardDescription className="text-gray-700 text-sm leading-relaxed mb-6">
+                  <CardDescription className="text-gray-700 text-sm leading-relaxed mb-6 line-clamp-3">
                     {product.description}
                   </CardDescription>
                 </CardContent>
