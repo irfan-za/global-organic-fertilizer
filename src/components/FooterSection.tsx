@@ -9,7 +9,7 @@ import {
   Instagram,
   Facebook,
   Youtube,
-  Linkedin,
+  Twitter,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -46,25 +46,25 @@ const FooterSection = () => {
     {
       icon: <Instagram className="w-6 h-6 mr-2" />,
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/globalorganicfertilizer",
       color: "text-pink-500",
     },
     {
       icon: <Facebook className="w-6 h-6 mr-2" />,
       name: "Facebook",
-      href: "#",
+      href: "https://www.facebook.com/share/19M9uvSwdv/",
       color: "text-blue-600",
     },
     {
       icon: <Youtube className="w-6 h-6 mr-2" />,
       name: "YouTube",
-      href: "#",
+      href: "https://youtube.com/@globalorganicfertilizer",
       color: "text-red-600",
     },
     {
-      icon: <Linkedin className="w-6 h-6 mr-2" />,
-      name: "LinkedIn",
-      href: "#",
+      icon: <Twitter className="w-6 h-6 mr-2" />,
+      name: "X",
+      href: "https://x.com/globalorga38485",
       color: "text-blue-700",
     },
   ];
