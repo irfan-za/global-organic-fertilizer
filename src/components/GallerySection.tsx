@@ -65,7 +65,7 @@ const GallerySection = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {galleryImages.map((image, index) => (
+          {galleryImages.slice(0, 3).map((image, index) => (
             <motion.div
               key={image.id}
               initial={{ opacity: 0, y: 50 }}
