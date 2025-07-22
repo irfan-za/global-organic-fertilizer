@@ -10,6 +10,7 @@ import {
   Facebook,
   Youtube,
   Twitter,
+  Linkedin,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -66,6 +67,12 @@ const FooterSection = () => {
       name: "X",
       href: "https://x.com/globalorga38485",
       color: "text-blue-700",
+    },
+    {
+      icon: <Linkedin className="w-6 h-6 mr-2" />,
+      name: "LinkedIn",
+      href: "#",
+      color: "text-sky-600",
     },
   ];
 

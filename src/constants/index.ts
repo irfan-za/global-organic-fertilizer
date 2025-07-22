@@ -43,8 +43,8 @@ export const galleryImages = [
   },
   {
     id: 9,
-    title: "Laboratory Analysis",
-    description: "Scientific testing to ensure product quality and safety",
+    title: "Quality Control",
+    description: "Quality control to ensure product quality and safety",
   },
   {
     id: 10,
@@ -77,10 +77,10 @@ export const galleryImages = [
 
 export const products = [
   {
-    id: 8,
+    id: 1,
     title: "Vermicompost",
     description:
-      "Our vermicompost is a high-quality organic fertilizer produced from worm castings, where the worms are primarily fed with cow manure and occasionally supplemented with chicken manure to enhance nutrient levels. The composting process occurs naturally through microbial and earthworm activity, resulting in a nutrient-rich, environmentally friendly organic fertilizer. To improve handling and application, the vermicompost is processed into granular form—dust-free, non-clumping, and easy to apply across various types of agricultural land. The product is further enriched with: Dolomite (±20%) – to balance soil pH and provide calcium and magnesium. rice husk ash (<10%) – to enhance soil porosity, aeration, and support microbial life. ",
+      "Our vermicompost is a high-quality organic fertilizer produced from worm castings, where the worms are primarily fed with cow manure and occasionally supplemented with chicken manure to enhance nutrient levels. The composting process occurs naturally through microbial and earthworm activity, resulting in a nutrient-rich, environmentally friendly organic fertilizer. To simply application, the vermicompost is processed into granular, non-clumping, and easy to apply across various types of agricultural land. The product is further enriched with: Dolomite (±20%) – to balance soil pH and provide calcium and magnesium. rice husk ash (<10%) – to enhance soil porosity, aeration, and support microbial life. ",
     category: "Compost",
     features: [
       "Earthworm Processed",
@@ -111,9 +111,9 @@ export const products = [
   },
   {
     id: 11,
-    title: "Decomposed Goat Manure",
+    title: "Fermented Goat Manure",
     description:
-      "Sourced from local livestock waste, this fertilizer is naturally and environmentally processed through accelerated decomposition.",
+      "Our product is organic fertilizer made from goat manure, sourced from local farms and processed through a natural fermentation method. The raw material is piled and fermented for one month, then ground and fermented again for one week with the addition of Nitrobacter to ensure full nutrient release and maturity.",
     category: "Manure",
     features: [
       "Locally Sourced",
@@ -127,11 +127,11 @@ export const products = [
       "Potassium (K₂O)": " 1.1 – 1.6%",
       "pH Level": "6.0 – 7.5",
       "Moisture Content": "25 – 35%",
-      Form: "Finely crushed, semi-powdered texture. Easy to mix with soil and quickly absorbed by plants.",
+      Form: "Fine texture and easy to apply",
     },
     benefits: [
       "Rich in natural nutrients",
-      "Enhanced with beneficial microbes",
+      "Enriched with Nitrobacter for improved nitrogen availability",
       "Environmentally sustainable",
       "Odor-free and safe to use",
     ],

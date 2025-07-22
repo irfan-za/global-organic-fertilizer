@@ -26,8 +26,7 @@ const DemoProductSection = () => {
             Product Demo
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Watch how our organic fertilizers transform agriculture and promote
-            sustainable farming practices
+            watch how we create our quality products.
           </p>
           <div className="w-24 h-1 bg-green-500 mx-auto rounded-full"></div>
         </motion.div>
