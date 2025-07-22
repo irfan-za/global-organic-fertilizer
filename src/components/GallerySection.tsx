@@ -78,13 +78,23 @@ const GallerySection = () => {
               <div
                 className={`relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 aspect-square`}
               >
-                <Image
-                  src={`/images/gallery/${image.id}.jpg`}
-                  alt={image.title}
-                  layout="fill"
-                  objectFit="cover"
-                  className="transition-transform duration-300 group-hover:scale-105"
-                />
+                {[1, 6, 12, 13].includes(image.id) ? (
+                  <video
+                    src={`/videos/gallery/${image.id}.mp4`}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
+                ) : (
+                  <Image
+                    src={`/images/gallery/${image.id}.jpg`}
+                    alt={image.title}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                )}
 
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
                   <div
@@ -168,12 +178,23 @@ const GallerySection = () => {
               </button>
 
               <div className="relative aspect-video">
-                <Image
-                  src={`/images/gallery/${selectedImage}.jpg`}
-                  alt={selectedImageData.title}
-                  fill
-                  className="object-cover"
-                />
+                {[1, 6, 12, 13].includes(selectedImage) ? (
+                  <video
+                    src={`/videos/gallery/${selectedImage}.mp4`}
+                    className="w-full h-full object-cover"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
+                ) : (
+                  <Image
+                    src={`/images/gallery/${selectedImage}.jpg`}
+                    alt={selectedImageData.title}
+                    fill
+                    className="object-cover"
+                  />
+                )}
               </div>
 
               <div className="p-6">

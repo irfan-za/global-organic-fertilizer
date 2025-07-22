@@ -151,7 +151,7 @@ export default function GalleryPage() {
               </button>
 
               <div className="relative aspect-video">
-                {[1, 12, 13].includes(selectedImage) ? (
+                {[1, 6, 12, 13].includes(selectedImage) ? (
                   <video
                     src={`/videos/gallery/${selectedImage}.mp4`}
                     className="w-full h-full object-cover"

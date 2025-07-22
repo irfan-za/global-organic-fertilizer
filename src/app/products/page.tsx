@@ -16,6 +16,7 @@ import Link from "next/link";
 import { products } from "@/constants";
 
 export default function ProductsPage() {
+  console.log(products);
   return (
     <div className="min-h-screen bg-gray-50 pt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,7 +37,7 @@ export default function ProductsPage() {
           <div className="w-24 h-1 bg-green-600 mt-6 rounded-full"></div>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-6 mb-12">
           {products.map((product, index) => (
             <motion.div
               key={product.id}
@@ -69,7 +70,7 @@ export default function ProductsPage() {
                   </div>
                 </CardHeader>
                 <CardContent className="pt-0 flex-1">
-                  <CardDescription className="text-gray-600 text-sm leading-relaxed">
+                  <CardDescription className="text-gray-600 text-sm leading-relaxed line-clamp-3">
                     {product.description}
                   </CardDescription>
                 </CardContent>

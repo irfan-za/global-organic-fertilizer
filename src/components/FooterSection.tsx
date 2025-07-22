@@ -36,9 +36,9 @@ const FooterSection = () => {
     {
       icon: <Mail className="w-6 h-6 mr-2" />,
       title: "Email",
-      details: ["globalorganicfertilizer@gmail.com"],
+      details: ["globalorganicfertilizer234@gmail.com"],
       color: "text-blue-500",
-      href: "mailto:globalorganicfertilizer@gmail.com",
+      href: "mailto:globalorganicfertilizer234@gmail.com",
     },
   ];
 
