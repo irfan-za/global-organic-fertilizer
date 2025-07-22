@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Global Organic Fertilizer
 
-## Getting Started
+🌱 **Sustainable Agriculture Through Natural Solutions**
 
-First, run the development server:
+Organic fertilizer export company based in Indonesia, dedicated to providing eco-friendly products such as Rice Husk Ash, Vermicompost, and Decomposed Goat Manure. All of our products are derived from natural sources to support sustainable and productive agriculture.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🏗️ Project Structure
+
+```
+global-organic-fertilizer/
+├── public/
+│   ├── images/              # Static images
+│   └── videos/              # Video content
+├── src/
+│   ├── app/
+│   │   ├── gallery/         # Gallery pages
+│   │   ├── products/        # Product pages
+│   │   │   └── [id]/        # Dynamic product routes
+│   │   ├── layout.tsx       # Root layout
+│   │   ├── page.tsx         # Home page
+│   │   ├── favicon.ico
+│   │   └── globals.css      # Global styles
+│   ├── components/
+│   │   └── ui/              # UI components
+│   ├── constants/
+│   │   └── index.ts         # App constants
+│   └── lib/                 # Utility functions
+├── .env.example             # Environment variables template
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15](https://nextjs.org) with App Router
+- **Language**: TypeScript
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **UI Components**: [Radix UI](https://radix-ui.com)
+- **Animations**: [Framer Motion](https://framer.com/motion)
+- **Icons**: [Lucide React](https://lucide.dev)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 20 or later
+- pnpm
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+```bash
+git clone <repository-url>
+cd global-organic-fertilizer
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm install
+```
+
+3. Set up environment variables:
+
+```bash
+cp .env.example .env
+```
+
+4. Run the development server:
+
+```bash
+pnpm dev
+```
+
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📝 Available Scripts
+
+- `pnpm run dev` - Start development server with Turbopack
+- `pnpm run build` - Build the application for production
+- `pnpm run start` - Start the production server
+- `pnpm run lint` - Run ESLint for code linting
+
+## 🌐 Live Website
+
+Visit our website at: **[https://globalorganicfertilizer.com](https://globalorganicfertilizer.com)**
+
+## 📱 Features
+
+- 🏠 **Homepage** with hero section and company overview
+- 📦 **Product showcase** with detailed information
+- 🖼️ **Gallery** for visual content
+- 📱 **Responsive design** for all devices
+- 🎨 **Modern UI/UX** with smooth animations
+- 💬 **WhatsApp integration** for customer contact
+
+---
+
+**Global Organic Fertilizer** - _Growing a Sustainable Future_ 🌱
