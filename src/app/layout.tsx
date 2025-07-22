@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    images: `${process.env.NEXT_PUBLIC_DOMAIN}/images/meta-image.jpg`,
+    images: `${process.env.NEXT_PUBLIC_DOMAIN}/images/meta-image.png`,
   },
   icons: {
-    apple: `${process.env.NEXT_PUBLIC_DOMAIN}/apple-touch-icon.jpg`,
+    apple: `${process.env.NEXT_PUBLIC_DOMAIN}/apple-touch-icon.png`,
   },
   manifest: "/manifest",
 };

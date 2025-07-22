@@ -12,7 +12,7 @@ export const galleryImages = [
   },
   {
     id: 3,
-    title: "Goat Manure Decomposition",
+    title: "Fermented Goat Manure",
     description:
       "Sustainable livestock waste processing with beneficial microbes",
   },
