@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const DemoProductSection = () => {
   const [playVideo, setPlayVideo] = useState(false);
-  const videoId = "lnLHRM2etwA";
+  const videoId = "ObS2SKMX6t8";
 
   const handlePlayVideo = () => {
     setPlayVideo(true);

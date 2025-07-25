@@ -78,7 +78,7 @@ const GallerySection = () => {
               <div
                 className={`relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 aspect-square`}
               >
-                {[1, 6, 12, 13].includes(image.id) ? (
+                {[1, 2, 6, 12, 13].includes(image.id) ? (
                   <video
                     src={`/videos/gallery/${image.id}.mp4`}
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
@@ -178,7 +178,7 @@ const GallerySection = () => {
               </button>
 
               <div className="relative aspect-video">
-                {[1, 6, 12, 13].includes(selectedImage) ? (
+                {[1, 2, 6, 12, 13].includes(selectedImage) ? (
                   <video
                     src={`/videos/gallery/${selectedImage}.mp4`}
                     className="w-full h-full object-cover"
