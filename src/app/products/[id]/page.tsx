@@ -75,7 +75,7 @@ export default function ProductDetailPage() {
           >
             <div className="aspect-square rounded-xl overflow-hidden shadow-lg">
               <Image
-                src={`/images/gallery/${product.id}.jpg`}
+                src={`/images/product/${product.id}.jpg`}
                 alt={product.title}
                 fill
                 className="object-cover"

@@ -51,7 +51,7 @@ export default function ProductsPage() {
                 <CardHeader className="pb-4">
                   <div className="w-full h-40 flex items-center justify-center mb-4 mx-auto shadow-lg relative rounded-lg overflow-hidden">
                     <Image
-                      src={`/images/gallery/${product.id}.jpg`}
+                      src={`/images/product/${product.id}.jpg`}
                       alt={product.title}
                       fill
                       className="object-cover"

@@ -52,7 +52,7 @@ const ProductSection = () => {
                     className={`w-full h-40  md:h-48 flex items-center justify-center text-2xl mb-4 mx-auto shadow-lg relative`}
                   >
                     <Image
-                      src={`/images/gallery/${product.id}.jpg`}
+                      src={`/images/product/${product.id}.jpg`}
                       alt={product.title}
                       fill
                       className="object-cover rounded-lg"

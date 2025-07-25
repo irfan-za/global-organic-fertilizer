@@ -1,8 +1,5 @@
-"use server";
-
 import { products } from "@/constants";
 
-// export const runtime = "edge";
 export default async function sitemap() {
   const product_urls = products?.map((product) => {
     return {

@@ -110,7 +110,7 @@ export const products = [
       "We understand that each customer and market has unique needs. Therefore, the composition of our vermicompost can be customized upon request. If you prefer a version without dolomite (20%) and Rice husk ash (<10%), we are fully prepared to provide it. Your satisfaction is our top priority.",
   },
   {
-    id: 11,
+    id: 2,
     title: "Fermented Goat Manure",
     description:
       "Our product is organic fertilizer made from goat manure, sourced from local farms and processed through a natural fermentation method. The raw material is piled and fermented for one month, then ground and fermented again for one week with the addition of Nitrobacter to ensure full nutrient release and maturity.",
@@ -137,7 +137,7 @@ export const products = [
     ],
   },
   {
-    id: 14,
+    id: 3,
     title: "Rice Husk Ash",
     description:
       "Rice Husk Ash is a high-quality organic material made from rice agricultural waste through controlled incomplete combustion.",
