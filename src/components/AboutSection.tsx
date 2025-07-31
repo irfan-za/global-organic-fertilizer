@@ -58,7 +58,7 @@ const AboutSection = () => {
               <p className="text-lg leading-relaxed mb-6">
                 We are an organic fertilizer export company based in Indonesia,
                 dedicated to providing eco-friendly products such as Rice Husk
-                Ash, Vermicompost, and Decomposed Goat Manure. All of our
+                Charcoal, Vermicompost, and Decomposed Goat Manure. All of our
                 products are derived from natural sources to support sustainable
                 and productive agriculture.
               </p>

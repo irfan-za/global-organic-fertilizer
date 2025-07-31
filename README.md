@@ -2,7 +2,7 @@
 
 🌱 **Sustainable Agriculture Through Natural Solutions**
 
-Organic fertilizer export company based in Indonesia, dedicated to providing eco-friendly products such as Rice Husk Ash, Vermicompost, and Decomposed Goat Manure. All of our products are derived from natural sources to support sustainable and productive agriculture.
+Organic fertilizer export company based in Indonesia, dedicated to providing eco-friendly products such as Rice Husk Charcoal, Vermicompost, and Decomposed Goat Manure. All of our products are derived from natural sources to support sustainable and productive agriculture.
 
 ## 🏗️ Project Structure
 
