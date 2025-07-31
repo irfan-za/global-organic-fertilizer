@@ -10,7 +10,6 @@ import {
   Facebook,
   Youtube,
   Twitter,
-  Linkedin,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -25,7 +24,7 @@ const FooterSection = () => {
         "Kabupaten Boyolali, Jawa Tengah 57375",
       ],
       color: "text-red-500",
-      href: "https://maps.app.goo.gl/RD694w3RPbjafdRA8",
+      href: "https://maps.app.goo.gl/kxRCRnMSgdLTer7G9",
     },
     {
       icon: <Phone className="w-6 h-6 mr-2" />,
@@ -67,12 +66,6 @@ const FooterSection = () => {
       name: "X",
       href: "https://x.com/globalorga38485",
       color: "text-blue-700",
-    },
-    {
-      icon: <Linkedin className="w-6 h-6 mr-2" />,
-      name: "LinkedIn",
-      href: "#",
-      color: "text-sky-600",
     },
   ];
 

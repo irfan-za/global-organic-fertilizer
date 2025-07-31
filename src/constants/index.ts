@@ -1,7 +1,7 @@
 export const galleryImages = [
   {
     id: 1,
-    title: "Rice Husk Ash Production",
+    title: "Rice Husk Charcoal Production",
     description:
       "High-quality organic material processing from rice agricultural waste",
   },
@@ -80,7 +80,7 @@ export const products = [
     id: 1,
     title: "Vermicompost",
     description:
-      "Our vermicompost is a high-quality organic fertilizer produced from worm castings, where the worms are primarily fed with cow manure and occasionally supplemented with chicken manure to enhance nutrient levels. The composting process occurs naturally through microbial and earthworm activity, resulting in a nutrient-rich, environmentally friendly organic fertilizer. To simply application, the vermicompost is processed into granular, non-clumping, and easy to apply across various types of agricultural land. The product is further enriched with: Dolomite (±20%) – to balance soil pH and provide calcium and magnesium. rice husk ash (<10%) – to enhance soil porosity, aeration, and support microbial life. ",
+      "Our vermicompost is a high-quality organic fertilizer produced from worm castings, where the worms are primarily fed with cow manure and occasionally supplemented with chicken manure to enhance nutrient levels. The composting process occurs naturally through microbial and earthworm activity, resulting in a nutrient-rich, environmentally friendly organic fertilizer. To simply application, the vermicompost is processed into granular, non-clumping, and easy to apply across various types of agricultural land. The product is further enriched with: Dolomite (±20%) – to balance soil pH and provide calcium and magnesium. rice husk charcoal (<10%) – to enhance soil porosity, aeration, and support microbial life. ",
     category: "Compost",
     features: [
       "Earthworm Processed",
@@ -89,14 +89,12 @@ export const products = [
       "100% organic and eco-friendly",
     ],
     specifications: {
-      "Organic Carbon(C)": "18-20%",
-      "Nitrogen (N)": "1.2-1.8%",
-      "Phosphorus (P₂O₅)": "0.8-1.2%",
-      "Potassium (K₂O)": "0.6-1.0%",
-      "C/N Ratio": "15-20",
-      "pH Level": "6.5-7.5",
-      "Moisture Content": "30-40%",
-      "Application Rate": "5-10 tons per hecta",
+      "Organic Carbon(C)": "15-18%",
+      "Nitrogen (N)": "1.07%",
+      "C/N Ratio": "<15",
+      "pH Level": "7-8",
+      "Moisture Content": "10-25%",
+      "Application Rate": "5-10 tons per hectare",
     },
     benefits: [
       "Improves soil fertility & structure",
@@ -107,7 +105,7 @@ export const products = [
     packaging:
       "Our product is packed in woven polypropylene sacks lined with anero plastic to maintain freshness and moisture during shipment. The standard packaging weight is 50 kg. However, custom packaging options are available upon request, to accommodate specific needs for different export markets.",
     customFormulation:
-      "We understand that each customer and market has unique needs. Therefore, the composition of our vermicompost can be customized upon request. If you prefer a version without dolomite (20%) and Rice husk ash (<10%), we are fully prepared to provide it. Your satisfaction is our top priority.",
+      "We understand that each customer and market has unique needs. Therefore, the composition of our vermicompost can be customized upon request. If you prefer a version without dolomite (20%) and Rice husk charcoal (<10%), we are fully prepared to provide it. Your satisfaction is our top priority.",
   },
   {
     id: 2,
@@ -138,10 +136,10 @@ export const products = [
   },
   {
     id: 3,
-    title: "Rice Husk Ash",
+    title: "Rice Husk Charcoal",
     description:
-      "Rice Husk Ash is a high-quality organic material made from rice agricultural waste through controlled incomplete combustion.",
-    category: "Ash",
+      "Rice Husk Charcoal is a high-quality organic material made from rice agricultural waste through controlled incomplete combustion.",
+    category: "Charcoal",
     features: [
       "Rich in Stable Carbon",
       "Boosts Microbial Activity",
