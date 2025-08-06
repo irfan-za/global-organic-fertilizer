@@ -120,9 +120,10 @@ export const products = [
       "Quick Maturation",
     ],
     specifications: {
-      "Nitrogen (N)": "1.2 – 1.8%",
-      "Phosphorus (P₂O₅)": "1.0 – 1.5%",
-      "Potassium (K₂O)": " 1.1 – 1.6%",
+      "Nitrogen (N)": "1.5–2.5%",
+      "Phosphorus (P₂O₅)": "1.0 – 2.0%",
+      "Potassium (K₂O)": " 1.0 – 2.5%",
+      "C/N Ratio": "10–20",
       "pH Level": "6.0 – 7.5",
       "Moisture Content": "25 – 35%",
       Form: "Fine texture and easy to apply",
@@ -147,11 +148,15 @@ export const products = [
       "Alkaline pH",
     ],
     specifications: {
-      "Silicon Content": "70-90%",
-      "Potassium Content": "2-3%",
+      "Organic Carbon (C-Organic)": "40-60%",
+      "Silica (SiO₂)": "10-25%",
+      "Potassium (K₂O)": "1-3%",
+      "Phosphorus (P₂O₅)": "0.2–0.5%",
+      "Calcium (CaO)": "0.5–1.5%",
+      "Magnesium (MgO)": "0.2–0.5%",
       "pH Level": "6.7-8.0",
       Porosity: "High",
-      "Moisture Content": "10-20%",
+      "Moisture Content": "10-20%"
     },
     benefits: [
       "Improves soil drainage",
