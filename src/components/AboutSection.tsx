@@ -56,11 +56,11 @@ const AboutSection = () => {
           >
             <div className="bg-gray-800 rounded-2xl p-8 text-white">
               <p className="text-lg leading-relaxed mb-6">
-                We are an organic fertilizer export company based in Indonesia,
-                dedicated to providing eco-friendly products such as Rice Husk
-                Charcoal, Vermicompost, and Decomposed Goat Manure. All of our
-                products are derived from natural sources to support sustainable
-                and productive agriculture.
+                Our company is engaged in the export of organic fertilizers from
+                Indonesia, dedicated to providing eco-friendly products such as
+                Rice Husk Charcoal, Vermicompost, and Decomposed Goat Manure.
+                All of our products are derived from natural sources to support
+                sustainable and productive agriculture.
               </p>
 
               <p className="text-lg leading-relaxed">
